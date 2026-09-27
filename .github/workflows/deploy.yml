@@ -27,7 +27,7 @@ jobs:
         run: flutter pub get
 
       - name: Build Flutter Web
-        run: flutter build web --release
+         run: flutter build web --release --base-href "/ITP107-OLALIA-FINALS-LAB1/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
